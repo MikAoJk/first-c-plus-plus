@@ -1,0 +1,7 @@
+# Idea project files
+*.iml
+.idea/
+
+# Generated sources
+cmake-build-debug/
+CMakeFiles/
