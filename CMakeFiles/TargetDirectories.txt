@@ -1,3 +1,0 @@
-/home/joakim/CLionProjects/first-cpp/CMakeFiles/first-cpp.dir
-/home/joakim/CLionProjects/first-cpp/CMakeFiles/edit_cache.dir
-/home/joakim/CLionProjects/first-cpp/CMakeFiles/rebuild_cache.dir
