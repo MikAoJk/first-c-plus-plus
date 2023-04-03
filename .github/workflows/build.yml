@@ -1,0 +1,21 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup cmake
+        uses: jwlawson/actions-setup-cmake@v1.13.1
+        with:
+          cmake-version: '3.25.x'
+      - name: Use cmake
+        run: cmake ../first-cpp
+      - name: Build C++
+        run: cmake --build . -j 2
